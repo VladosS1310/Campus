@@ -1,0 +1,123 @@
+.hotel-room-wrapper {
+  margin: 20px 0 80px 0;
+  h3 {
+    color: #000000;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+
+  .hotel-room-content {
+    padding: 0 100px;
+    @media (max-width: 1200px) {
+      padding: 0 60px;
+    }
+    @media (max-width: 992px) {
+      padding: 0;
+    }
+    b {
+      color: #000000;
+      font-family: "OpenSans-Regular", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+
+    span {
+      color: #000000;
+      font-family: "OpenSans-Regular", sans-serif;
+      font-size: 16px;
+      line-height: 30px;
+    }
+    .hotel-room-content_text {
+      color: #000000;
+      font-family: "OpenSans-Regular", sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .block-action {
+      max-width: 454px;
+      width: 100%;
+      min-height: 558px;
+      max-height: 558px;
+      height: 100%;
+      box-shadow: 0 5px 16px rgba(121, 121, 121, 0.17);
+      border-radius: 5px;
+      background-color: #ffffff;
+      padding: 50px 86px;
+      @media(max-width: 992px) {
+        padding: 50px 40px
+      }
+
+      h1 {
+        color: #4087e8;
+        font-family: "OpenSans-Regular", sans-serif;
+        font-weight: 700;
+        line-height: 60px;
+      }
+
+      span {
+        font-family: "OpenSans-Regular", sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+      }
+
+      b {
+        color: #000000;
+        font-family: "OpenSans-Regular", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+      }
+
+      button {
+        max-width: 282px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: #4087e8;
+        color: #ffffff;
+        font-family: "ArialMT", sans-serif;
+        font-size: 18px;
+        margin-top: 75px;
+      }
+    }
+  }
+  .image-gallery {
+    .image-gallery-content {
+      .image-gallery-slide-wrapper {
+        .image-gallery-swipe {
+          .image-gallery-slides {
+            .image-gallery-slide {
+              div {
+                img {
+                  max-height: 620px;
+                  min-height: 620px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.image-gallery {
+  .image-gallery-thumbnails-wrapper {
+    .image-gallery-thumbnails {
+      .image-gallery-thumbnails-container {
+        .image-gallery-thumbnail-inner {
+          img {
+            max-height: 61px;
+            min-height: 61px;
+          }
+        }
+        button {
+          &.active, &:active, &:focus, &:hover {
+            border: 4px solid #d4d4d4;
+          }
+        }
+      }
+    }
+  }
+}

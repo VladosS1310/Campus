@@ -1,0 +1,77 @@
+.myMap {
+  position: relative;
+}
+.marker-map {
+  padding-left: 5px;
+  span {
+    &:first-child {
+      color: #bf2113;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    &:last-child {
+      color: #0a5dc2;
+    }
+  }
+}
+
+.btn-close {
+  font-weight: 600;
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.boxInfo-block {
+  max-width: 492px;
+  width: 100%;
+  min-height: 435px;
+  max-height: 435px;
+  height: 100%;
+  box-shadow: 0 9px 18px rgba(132, 132, 132, 0.25);
+  border-radius: 10px;
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  background: rgba(255, 255, 255, 0.9);
+  .boxInfo-block_content {
+    padding: 55px 34px;
+
+    h3 {
+      color: #4087e8;
+      font-family: "OpenSans-Regular", sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+    }
+    .description {
+      span {
+        color: #262626;
+        font-family: "ArialMT", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 40px;
+
+        &:nth-child(7) {
+          line-height: 24px;
+        }
+      }
+    }
+
+    .location, .phone {
+      svg {
+        color: #4087e8;
+      }
+      span {
+        color: #262626;
+        font-family: "OpenSans-Regular", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 40px;
+      }
+    }
+  }
+}

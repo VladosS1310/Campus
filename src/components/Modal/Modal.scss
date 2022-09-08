@@ -1,0 +1,72 @@
+label {
+  font-family: "ArialMT", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+input {
+  min-height: 36px;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #ced4da;
+}
+
+::placeholder {
+  padding-left: 10px;
+}
+
+.react-tel-input {
+  width: 100%;
+  .flag-dropdown {
+    height: 100%;
+    .selected-flag {
+      height: 100%;
+      background: transparent;
+    }
+  }
+  input[type='tel'] {
+    box-shadow: none;
+    border: 1px solid #ced4da;
+  }
+}
+
+.my-modal {
+  .modal-header {
+    border-bottom: 0;
+  }
+
+  .modal-footer {
+    border-top: 0;
+    button {
+      width: 100%;
+      margin: 0;
+      background: #4087e8;
+    }
+  }
+
+  .modal-body, .modal-footer {
+    padding: 0 4rem 2rem 4rem;
+  }
+
+  .addIcon {
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: 40px;
+      left: 5px;
+    }
+
+    input {
+      padding-left: 25px;
+
+      &:focus {
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+      }
+    }
+  }
+}

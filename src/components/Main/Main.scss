@@ -1,0 +1,109 @@
+.main-wrapper {
+  .bg-photo {
+    min-height: 600px;
+    height: 100%;
+    background: url("../../assets/img/foto-1.jpg") center no-repeat;
+    background-size: cover;
+    .blue-block {
+      max-width: 266px;
+      width: 100%;
+      margin-bottom: 85px;
+      min-height: 304px;
+      height: 100%;
+      border-radius: 5px;
+      background-color: rgba(64,135,232, .9);
+      @media (max-width: 576px) {
+        margin-bottom: 0;
+      }
+      span {
+        color: white;
+        font-family: "ArialMT", sans-serif;
+        font-weight: 400;
+        line-height: 70px;
+        &:first-child,  &:last-child {
+          font-size: 30px;
+        }
+
+        &:nth-child(2) {
+          font-size: 100px;
+          font-weight: bold;
+        }
+      }
+    }
+    .block-choose-room {
+      margin-bottom: 85px;
+      padding: 40px;
+      max-width: 662px;
+      width: 100%;
+      min-height: 304px;
+      height: 100%;
+      border-radius: 5px;
+      background-color: rgba(64,135,232, .9);
+      @media (max-width: 576px) {
+        margin-bottom: 0;
+      }
+      .block-choose-room_title {
+        color: #ffffff;
+        font-family: "Arial-BoldMT", sans-serif;
+        font-size: 30px;
+        padding-bottom: 30px;
+      }
+      label {
+        color: #ffffff;
+        font-family: "ArialMT", sans-serif;
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      input {
+        min-height: 36px;
+        height: 100%;
+        border-radius: 6px;
+        outline: none;
+        border: 0;
+      }
+
+      button {
+        font-family: "ArialMT", sans-serif;
+        font-size: 18px;
+        &:first-child {
+          background: transparent;
+          color: white;
+          border: 2px solid #fff;
+        }
+        &:last-child {
+          background: white;
+          color: #4087e8;
+        }
+      }
+    }
+  }
+  .addIcon {
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: 40px;
+      left: 5px;
+    }
+
+    input {
+      padding-left: 25px;
+
+      &:focus {
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+      }
+    }
+  }
+
+  .myMap {
+    @media (max-width: 576px) {
+      margin-top: 80px;
+    }
+  }
+}
+.rs-picker-menu {
+  z-index: 9999;
+}

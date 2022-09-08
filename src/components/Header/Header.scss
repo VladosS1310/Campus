@@ -1,0 +1,36 @@
+header {
+  #basic-navbar-nav {
+    .navbar-menu {
+      .navbar-menu__contacts {
+        span {
+          color: #000;
+          font-family: "OpenSans-Regular", sans-serif;
+          line-height: 60px;
+
+          &:first-child {
+            padding-right: 38px;
+          }
+        }
+      }
+      .navbar-menu__links {
+        a {
+          color: #000000;
+          text-decoration: none;
+          font-family: "OpenSans-Regular", sans-serif;
+          margin: 0 15px;
+          padding-bottom: 15px;
+          font-size: 18px;
+          font-weight: 500;
+          @media(max-width: 992px) {
+            line-height: 40px;
+          }
+        }
+
+        .active {
+          border-bottom: 2px solid #4087e8;
+          color: #4087e8;
+        }
+      }
+    }
+  }
+}
